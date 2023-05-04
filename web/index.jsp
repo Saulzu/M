@@ -15,21 +15,20 @@
         a{text-decoration: none;}
     </style>
     <body>
-        <br><br><br><br><br><br>
-        <div class="container text-center">
-            <div class="row align-items-start">
-                <div class="col"></div>
-                <div class="col">
-        
-                    <div class="card" style="width: 18rem;" >
-                        <div class="card-body" align="center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                    <br><br><br>
+                    <div class="card text-center shadow mt-5 ms-5" style="width: 18rem;">
+                        <div class="card-body" >
                             <a href="rolList.jsp"><button type="button" class="btn btn-outline-info btn-lg gap-2 col-6 mx-auto">Rol</button></a>
                             <br><br>
                             <a  href="usuarioList.jsp"><button type="button" class="btn btn-outline-info btn-lg gap-2 col-6 mx-auto">Usuarios</button></a>
                         </div>
                     </div>
                 </div>
-                <div class="col"></div>
+                <div class="col-sm-4"></div>
             </div>
         </div>
     </body>
