@@ -44,7 +44,7 @@ public abstract class Conexion<T> implements Serializable
         {
             return null;
         }
-        url = String.format("jdbc:mysql://%s:3306/%s?user=%s&password=%s", server, db, user, password);
+        url = String.format("jdbc:mysql://%s:3308/%s?user=%s&password=%s", server, db, user, password);
         try 
         {
             if (!testDriver()) 

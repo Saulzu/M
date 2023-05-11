@@ -24,20 +24,6 @@ CREATE TABLE IF NOT EXISTS `Prueba`.`ROL` (
 ENGINE = InnoDB;
 
 
--- -----------------------------------------------------
--- Table `Prueba`.`USUARIO`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `Prueba`.`USUARIO` (
-  `usuario` VARCHAR(100) NOT NULL,
-  `nombre` VARCHAR(100) NULL,
-  `apellido_paterno` VARCHAR(100) NULL,
-  `apellido_materno` VARCHAR(100) NULL,
-  `edad` INT NULL,
-  `fecha` DATETIME NULL,
-  PRIMARY KEY (`usuario`))
-ENGINE = InnoDB;
-
-
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
